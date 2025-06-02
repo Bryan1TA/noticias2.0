@@ -191,3 +191,38 @@ main {
     line-height: 1.625rem;
     color: var(--gunmetal);
 }
+
+@media(min-width: 1110px){
+    header > button{
+        display: none;
+    }
+
+    header .desktop{
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    header .desktop a{
+        font-size: 0.9375rem;
+        line-height: 1.625rem;
+        text-decoration: none;
+        color: var(--gunmetal);
+    }
+
+    header .desktop a:hover{
+        color: var(--vermilion);
+    }
+    
+     main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1.75rem;
+    }
+
+    .primeira-secao{
+        grid-column: 1 / 3;
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.75rem;
+    }
