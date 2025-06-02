@@ -252,3 +252,10 @@ main {
         display: flex;
         grid-column: 1 / 4;
     }
+
+
+    .terceira-secao h2:hover{
+        color: var(--vermilion);
+    }
+
+}
