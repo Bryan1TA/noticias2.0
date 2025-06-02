@@ -68,3 +68,39 @@ header nav.mobile{
 header nav.mobile.abrir{
     right: 0;
 }
+header nav button{
+    align-self: flex-end;
+    margin-bottom: 4rem;
+}
+
+header .mobile a{
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+}
+
+header .desktop{
+    display: none;
+}
+
+main {
+    max-width: 1110px;
+    margin-inline: auto;
+}
+
+.primeira-secao{
+    margin-bottom: 4rem;
+}
+
+.primeira-secao img{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.primeira-secao h1{
+    font-size: 2.5rem;
+    line-height: 100%;
+    color: var(--dark-blue);
+    margin-bottom: 1rem;
+}
